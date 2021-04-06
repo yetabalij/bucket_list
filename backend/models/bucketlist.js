@@ -11,4 +11,4 @@ const bucketListSchema = mongoose.Schema({
   },
 });
 
-const bucketlist = model("BucketList", bucketListSchema);
+module.exports = mongoose.model("BucketList", bucketListSchema);
